@@ -1,0 +1,20 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    poise (2.7.1)
+    poise-service (1.4.2)
+      poise (~> 2.0)
+
+GIT
+  remote: https://github.com/usabi/chef-tmate-slave.git
+  ref: master
+  sha: 19425c0e3c3c5f6cd917e0ade04145cf8264a1fb
+  specs:
+    tmate-slave (0.1.0)
+      poise (>= 0.0.0)
+      poise-service (>= 0.0.0)
+
+DEPENDENCIES
+  poise-service (= 1.4.2)
+  tmate-slave (>= 0)
+

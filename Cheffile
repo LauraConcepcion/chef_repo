@@ -1,0 +1,5 @@
+site "https://supermarket.getchef.com/api/v1"
+
+cookbook "poise-service", "1.4.2"
+cookbook "tmate-slave",
+  git: "https://github.com/usabi/chef-tmate-slave.git"
